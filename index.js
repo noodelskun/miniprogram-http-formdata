@@ -1,7 +1,7 @@
 /*
  * @Author: rkm
  * @Date: 2021-01-27 14:51:35
- * @LastEditTime: 2021-01-28 11:43:03
+ * @LastEditTime: 2021-02-04 18:51:27
  * @FilePath: \miniprogram-http-formdata\index.js
  * @LastEditors: rkm
  */
@@ -43,7 +43,7 @@ class HttpRequest {
     }
     post({
         path,
-        data,
+        data = {},
         formdata = false,
         fileList = []
     }) {
